@@ -1,0 +1,159 @@
+:root{
+    --overlay-bg-color: rgba(12, 12, 12, 0.7);
+    --btn-bg-color: #10c9c3;
+    --text-nav-grey: #bfbfbf;
+    --text-light-grey: #5f5f5f;
+    --text-black-color: #171717;
+    --btn-bg-hover-color: #252525;
+}
+
+*{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.heading h2{
+    color: var(--text-black-color);
+}
+
+.heading p{
+    color: var(--text-light-grey);
+    font-style: italic;
+}
+
+.nav-header{
+    height: 95vh;
+    background: url('../assets/images/portfolio-single-3-1.jpg'),var(--overlay-bg-color);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+nav .img-fluid{
+    height: 20px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+nav .nav-item{
+    margin-left: 15px;
+}
+
+nav .nav-item a{
+    font-size: 13px;
+    line-height: 80%;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: var(--text-nav-grey);
+}
+
+.dropdown-menu{
+    background-color: var(--text-black-color);
+}
+
+.dropdown-item{
+    padding-top: 10px;
+}
+
+.dropdown-item:hover{
+    background-color: var(--text-black-color);
+}
+
+nav .nav-item a:hover{
+    color: white;
+}
+
+.header p{
+    color: white;
+    font-size: 18px;
+}
+
+.header .welcome-text{
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.header .btn{
+    border: 0px;
+    border-radius: 0;
+    background-color: var(--btn-bg-color);
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.header .btn:hover{
+    background-color: var(--btn-bg-hover-color);
+    transition: 0.5s;
+}
+
+.home-pages{
+    background-color: #F6F6F6;
+}
+
+.box{
+    margin-top: 40px;
+}
+
+.box a{
+    color: black;
+}
+
+.box h4{
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.box:hover h4{
+    transition: 0.5s;
+    color: var(--btn-bg-color);
+}
+
+.project-pages{
+    background-color: #F2F2F2;
+}
+
+.portfolio{
+    background: url('../assets/images/promo-bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.portfolio h2{
+    color: white;
+}
+
+.portfolio p{
+    color: white;
+}
+
+.inner-pages{
+    background-color: #F6F6F6;
+}
+
+.header-styles{
+    background-color: #F2F2F2;
+}
+
+.footer-cta{
+    height: 70vh;
+    background: url('../assets/images/promo-bg-2.jpg'),var(--overlay-bg-color) !important;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.copyright{
+    background-color: var(--text-black-color);
+}
+
+.copyright p{
+    margin-bottom: 0;
+    color: var(--text-nav-grey);
+    font-size: 14px;
+}
