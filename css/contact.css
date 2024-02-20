@@ -1,0 +1,51 @@
+:root{
+    --overlay-bg-color: rgba(12, 12, 12, 0.7);
+    --btn-bg-color: #10c9c3;
+    --text-nav-grey: #bfbfbf;
+    --text-light-grey: #5f5f5f;
+    --text-black-color: #171717;
+    --btn-bg-hover-color: #252525;
+    --footer-bg: #141414;
+    --footer-text-color: #BCBCBC;
+    --work-bg-color: #F6F6F6;
+}
+
+.map{
+    height: 100vh;
+}
+
+.contact-main h2{
+    letter-spacing: 2px;
+}
+
+.contact-main p{
+    color: var(--text-light-grey);
+    font-size: 15px;
+}
+
+.contact-main span{
+    color: var(--text-black-color);
+    font-weight: 600;
+}
+
+.contact-main input, .contact-main textarea{
+    border: 1px solid rgb(223, 223, 223) ;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-light-grey);
+    outline: none;
+}
+
+.contact-main input:focus, .contact-main textarea:focus{
+    border: var(--btn-bg-color) solid 1px;
+}
+
+.contact-main .btn{
+    background-color: var(--btn-bg-color);
+    color: white;
+}
+
+.contact-main .btn:hover{
+    background-color: var(--btn-bg-hover-color);
+    transition: 0.5s;
+}
